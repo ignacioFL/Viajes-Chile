@@ -1,5 +1,16 @@
 body {
     background-color: #000000;
     font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 0rem;
+}
+
+#carousel {
+    background-image: url("../img/carousel1.jpg");
+    background-image: url("../img/carousel2.jpg");
+    background-image: url("../img/carousel3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 727px;
 }
 
