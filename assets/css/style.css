@@ -1,12 +1,13 @@
 * { 
-    margin:0 0 0 0 ;
+    margin: 0;
     padding: 0;
 }
 
 .viajes-chile {
     font-size: 15pt;
-     width: 300px;
+     width: 200px;
       height: 60px;
+      padding-left: 130px;
 }
 
 body {
@@ -22,7 +23,6 @@ body {
     display: inline-block;
     margin: 25px;
     block-size: auto;
-    align-items:center
 }
 
 .card-title {

@@ -1,14 +1,20 @@
-$("a").click(function (event) {
-    if (this.hash !== "") {
-        event.preventDefault();
+$(function () {
 
-        var gato = this.hash;
+    $("a").click(function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
 
-        $("html,body").animate({
-            scrollTop: $(gato).offset().scrollTop
-        }, 800, function () {
-            window.location.hash = gato;
-        });
-    }
+            var gato = this.hash;
+
+            $("html,body").animate({
+                scrollTop: $(gato).offset().scrollTop
+            }, 800, function () {
+                window.location.hash = gato;
+            });
+        }
+    });
+
+    $('[data-toggle="popover"]').popover()
+
 });
 
