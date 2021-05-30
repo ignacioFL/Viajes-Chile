@@ -1,15 +1,39 @@
-body {
-    background-color: #000000;
-    font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
-    margin: 0rem;
+* { 
+    margin:0 0 0 0 ;
+    padding: 0;
 }
 
-#carousel {
-    background-image: url("../img/carousel1.jpg");
-    background-image: url("../img/carousel2.jpg");
-    background-image: url("../img/carousel3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 727px;
+.viajes-chile {
+    font-size: 15pt;
+     width: 300px;
+      height: 60px;
+}
+
+body {
+    background-color:  #000000;
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+    font-size: 20pt;
+}
+
+.card {
+    background-color: #009aa5;
+    width: 400px;
+    display: inline-block;
+    margin: 25px;
+    block-size: auto;
+    align-items:center
+}
+
+.card-title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+ 
+footer {
+    font-family: 'Cabin', sans-serif;
+    font-size: 40pt;
+    color: #ffffff; 
+    display:inline-flexbox;
 }
